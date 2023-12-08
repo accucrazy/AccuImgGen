@@ -7,7 +7,8 @@ AccuImgGen 是一款結合了 OpenAI 的 DALL·E 3 API 和 Google Sheets 的自�
 
 AccuImgGen is an automated image generation tool that combines OpenAI's DALL·E 3 API with Google Sheets. It allows users to generate images in bulk within Google Sheets and automatically saves these images to Google Drive to prevent link expiration.
 
-功能 (Features)
+**功能 (Features)**
+
 批量圖片生成：基於用戶在 Google Sheets 中輸入的提示生成圖片。
 
 直接顯示圖片：在 Google Sheets 中直接顯示生成的圖片。
@@ -20,7 +21,9 @@ Direct Image Display: Displays generated images directly within Google Sheets.
 
 Automatic Image Storage: Automatically saves generated images to Google Drive.
 
-使用指南 (Usage Guide)
+**使用指南 (Usage Guide)**
+
+
 設定 API 密鑰和端點：替換腳本中的 'YOUR_DALL-E_3_API_KEY' 為你的 DALL·E 3 API 密鑰，並將 'CORRECT_DALL-E_3_API_ENDPOINT' 替換為正確的 API 端點。
 
 準備 Google Sheets：在 Google Sheets 的 A 列中從第 2 行開始輸入圖片生成提示。
@@ -33,14 +36,16 @@ Prepare Google Sheets: Enter image generation prompts in column A of Google Shee
 
 Run the AccuImgGen script: Execute this script in the Apps Script editor of Google Sheets.
 
-安裝 (Installation)
+**安裝 (Installation)**
+
 使用指南：
 請將 CORRECT_DALL-E_3_API_ENDPOINT 替換為實際的 DALL·E 3 API 端點。
 將 YOUR_DALL-E_3_API_KEY 替換為您的 DALL·E 3 API 密鑰。
 確保 Google Drive 中有一個名為 "AccuImgGen" 的資料夾，用於儲存生成的圖片。
 此腳本將生成的圖片URL放置在試算表的 B 列，並將對應的 Google Drive 鏈接放置在 C 列。
 
-貢獻 (Contributing)
+**貢獻 (Contributing)**
+
 歡迎並鼓勵社區貢獻！如果您有改進建議或想要貢獻代碼，請隨時提交 pull 請求或開啟 issue。
 
 Contributions are welcome and encouraged! If you have suggestions for improvement or want to contribute code, feel free to submit a pull request or open an issue.
